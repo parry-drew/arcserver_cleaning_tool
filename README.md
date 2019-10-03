@@ -6,10 +6,13 @@ The script creates several csv files with different information to parse through
 * list of mxds that exist on a given server
 * list of mxds used by map services on a given server
 * list of feature used for each mxd
-* list of features that have broken data sources
+* list of features that have broken data sources (currently under development)
 
 
 ## Instructions
+
+In the arcserver_cleaning_tool.py file add the directories you want to run the tool for. See code for more details. Then use the following commands in the command line :
+
 ```
   # Change your directory
   cd your\directory
